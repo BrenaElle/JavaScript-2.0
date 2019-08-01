@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerenciador de Tarefas</title>
+    <meta charset="utf-8">
+    <style>
+            body {
+            background-color: #F1E6EF
+            }
+            .box{
+                color: rgb(0, 5, 5);
+            
+                position: relative;;
+                left: 50%;
+                top: 50%;
+            }
+            </style>
+    <script type="text/javascript" src="Atividade2.js"></script>
+</head>
+
+
+<body>
+    <div class="box">
+        <textarea cols="20" id="campo" rows="2" onkeyup="mostrarResultado(this.value,40,'spcontando');contarCaracteres(this.value,40,'sprestante')"></textarea><br />
+        <span id="spcontando" style="font-family:Georgia;">Digite sua Tarefa:</span><br />
+        <span id="sprestante" style="font-family:Georgia;"></span>
+            
+    </div>        
+
+
+
+
+    
+
+
+</body>
+
+</html>
